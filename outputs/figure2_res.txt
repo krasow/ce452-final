@@ -34,3 +34,12 @@ CPU Time (ms): 16.270333        CPU-DPU Time (ms): 11.680667    DPU Kernel Time 
 
 
 /home/david/temp/ce452-final/elementwise/VDIVD
+
+FLOAT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.434000        CPU-DPU Time (ms): 12.368000    DPU Kernel Time (ms): 261657.622000     DPU-CPU Time (ms): 14.539667    [ERROR] Outputs differ!
+
+
+INT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.474667        CPU-DPU Time (ms): 10.318667    DPU Kernel Time (ms): 6138.731333       DPU-CPU Time (ms): 10.976667    [ERROR] Outputs differ!
