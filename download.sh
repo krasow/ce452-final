@@ -15,7 +15,7 @@ conda env create -f environment.yml -n upmem-fp
 conda activate upmem-fp
 
 # install pip packages
-pip install -r requirments.txt
+pip install -r requirements.txt
 
 wget http://sdk-releases.upmem.com/2023.2.0/ubuntu_22.04/upmem-2023.2.0-Linux-x86_64.tar.gz
 tar -xvf upmem-2023.2.0-Linux-x86_64.tar.gz
