@@ -1,5 +1,6 @@
 #!/usr/bin/bash/env bash
-# run script for stuff
+# run script for varying PRIM benchmarks
+# Figure 1
 
 do_run () {
 	echo $PWD;

@@ -1,5 +1,6 @@
 #!/usr/bin/bash/env bash
-# run script for stuff
+# run script for varying elementwise operators
+# Figure 2
 
 do_run () {
 	echo $PWD;
