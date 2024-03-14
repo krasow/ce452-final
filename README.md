@@ -8,11 +8,16 @@ source download.sh
 ```
 ```bash
 # Figure 1 results
-sh run1.sh
+sh ./scripts/run1.sh
 
 # Figure 2 results
-sh run2.sh
+sh ./scripts/run2.sh
 
 # Figure 3 results
-sh run3.sh
+sh ./scripts/run3.sh
+```
+
+OR if that's a lot of work:
+```bash
+sh run_all.sh
 ```
