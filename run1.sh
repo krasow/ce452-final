@@ -3,9 +3,11 @@
 
 do_run () {
 	echo $PWD;
+	echo "";
 	echo "FLOAT TEST";
 	make clean && make TYPE=FLOAT NR_DPUS=64
 	./bin/host_code
+	echo "";
 	echo "INT TEST";
 	make clean && make TYPE=INT32 NR_DPUS=64
 	./bin/host_code

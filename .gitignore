@@ -2,5 +2,7 @@ prim-benchmarks
 upmem
 miniconda*
 *.tar.gz
+*.conf
+*.o
 
 

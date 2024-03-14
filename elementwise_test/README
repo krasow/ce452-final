@@ -1,0 +1,8 @@
+This folder provides modifications to varying versions of the VA benchmark within the PRIM-benchmark suite
+https://github.com/CMU-SAFARI/prim-benchmarks
+
+For each folder, the only difference is the operator
+VA ---- element wise addition
+VS ---- element wise subtraction
+VMULT - element wise multiplication
+VDIVD - element wise division
