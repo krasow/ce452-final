@@ -1,0 +1,12 @@
+VA
+
+Integer 
+Allocated 8 DPU(s)
+nr_elements     20971520        NR_TASKLETS     16      BL      10
+CPU Time (ms): 76.615333        CPU-DPU Time (ms): 14.552667    DPU Kernel Time (ms): 3562.780667       DPU-CPU Time (ms): 12.696333    [OK] Outputs are equal
+
+
+Float
+Allocated 8 DPU(s)
+nr_elements     20971520        NR_TASKLETS     16      BL      10
+CPU Time (ms): 78.931667        CPU-DPU Time (ms): 24.465333    DPU Kernel Time (ms): 23274.643333      DPU-CPU Time (ms): 24.065000    [OK] Outputs are equal
