@@ -6,7 +6,6 @@ Download everything
 ```bash
 source download.sh
 ```
-
 ```bash
 # Figure 1 results
 sh run1.sh
