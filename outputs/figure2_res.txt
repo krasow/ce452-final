@@ -1,0 +1,36 @@
+_____________________________
+Running Figure 2
+/home/david/temp/ce452-final/elementwise/VA
+
+FLOAT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.550667        CPU-DPU Time (ms): 11.216667    DPU Kernel Time (ms): 16749.072333      DPU-CPU Time (ms): 11.065333    [OK] Outputs are equal
+
+INT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.052000        CPU-DPU Time (ms): 11.045667    DPU Kernel Time (ms): 2010.193333       DPU-CPU Time (ms): 13.218000    [OK] Outputs are equal
+
+
+/home/david/temp/ce452-final/elementwise/VS
+
+FLOAT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.211333        CPU-DPU Time (ms): 11.436667    DPU Kernel Time (ms): 18289.998000      DPU-CPU Time (ms): 10.282667    [ERROR] Outputs differ!
+
+INT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 10.438333        CPU-DPU Time (ms): 9.564000     DPU Kernel Time (ms): 2067.525000       DPU-CPU Time (ms): 9.835667     [ERROR] Outputs differ!
+
+
+/home/david/temp/ce452-final/elementwise/VMULT
+
+FLOAT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.451000        CPU-DPU Time (ms): 11.060000    DPU Kernel Time (ms): 46525.348667      DPU-CPU Time (ms): 12.290333    [ERROR] Outputs differ!
+
+INT TEST
+nr_elements     2621440 NR_TASKLETS     16      BL      10
+CPU Time (ms): 16.270333        CPU-DPU Time (ms): 11.680667    DPU Kernel Time (ms): 13780.514333      DPU-CPU Time (ms): 14.318333    [ERROR] Outputs differ!
+
+
+/home/david/temp/ce452-final/elementwise/VDIVD
