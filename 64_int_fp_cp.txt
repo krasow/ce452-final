@@ -1,5 +1,6 @@
 64 DPUS running
 
+_____________________
 RED BENCHMARK
 
 FLOAT
@@ -12,9 +13,7 @@ INT
 nr_elements     419430400       NR_TASKLETS     16      BL      10
 CPU Time (ms): 757.161667       CPU-DPU Time (ms): 116.633333   DPU Kernel Time (ms): 5734.345000       Inter-DPU Time (ms): 0.661000   [OK] Outputs are equal
 
-
-
-
+_____________________
 VA BENCHMARK
 
 FLOAT
@@ -26,3 +25,30 @@ INT
 
 nr_elements     167772160       NR_TASKLETS     16      BL      10
 CPU Time (ms): 170.186667       CPU-DPU Time (ms): 43.952333    DPU Kernel Time (ms): 2383.085333       DPU-CPU Time (ms): 38.705667    [OK] Outputs are equal
+
+_____________________
+SCAN-RSS
+
+FLOAT
+
+nr_elements     251658240       NR_TASKLETS     16      BL      10
+CPU Time (ms): 766.190667       CPU-DPU Time (ms): 46.817667       DPU Kernel Reduction Time (ms): 28816.999333       Inter-DPU (Scan) Time (ms): 0.512333       DPU Kernel Scan Time (ms): 57259.938000 DPU-CPU Time (ms): 106.426333      [ERROR] Outputs differ!
+
+INT
+
+nr_elements     251658240       NR_TASKLETS     16      BL      10
+CPU Time (ms): 452.386333       CPU-DPU Time (ms): 46.236333    DPU Kernel Reduction Time (ms): 1165.953667  Inter-DPU (Scan) Time (ms): 0.411000    DPU Kernel Scan Time (ms): 3630.315667  DPU-CPU Time (ms): 109.157667        [OK] Outputs are equal
+_____________________
+SCAN-SSA
+
+FLOAT
+
+nr_elements     251658240       NR_TASKLETS     16      BL      10
+CPU Time (ms): 773.159667       CPU-DPU Time (ms): 59.768667    DPU Kernel Scan Time (ms): 59790.553667      Inter-DPU (Scan) Time (ms): 0.630333    DPU Kernel Add Time (ms): 28810.267000  DPU-CPU Time (ms): 81.422667 [ERROR] Outputs differ!
+
+
+INT
+
+nr_elements     251658240       NR_TASKLETS     16      BL      10
+CPU Time (ms): 475.690333       CPU-DPU Time (ms): 42.512333    DPU Kernel Scan Time (ms): 3332.580333       Inter-DPU (Scan) Time (ms): 0.513333    DPU Kernel Add Time (ms): 1707.256000   DPU-CPU Time
+
