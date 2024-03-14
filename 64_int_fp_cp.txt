@@ -1,0 +1,28 @@
+64 DPUS running
+
+RED BENCHMARK
+
+FLOAT
+
+nr_elements     419430400       NR_TASKLETS     16      BL      10
+CPU Time (ms): 1140.095333      CPU-DPU Time (ms): 115.579667   DPU Kernel Time (ms): 50889.427667      Inter-DPU Time (ms): 0.518333   [ERROR] Outputs differ!
+
+INT
+
+nr_elements     419430400       NR_TASKLETS     16      BL      10
+CPU Time (ms): 757.161667       CPU-DPU Time (ms): 116.633333   DPU Kernel Time (ms): 5734.345000       Inter-DPU Time (ms): 0.661000   [OK] Outputs are equal
+
+
+
+
+VA BENCHMARK
+
+FLOAT
+
+nr_elements     167772160       NR_TASKLETS     16      BL      10
+CPU Time (ms): 532.907000       CPU-DPU Time (ms): 60.571333    DPU Kernel Time (ms): 23058.459333      DPU-CPU Time (ms): 87.507333    [OK] Outputs are equal
+
+INT
+
+nr_elements     167772160       NR_TASKLETS     16      BL      10
+CPU Time (ms): 170.186667       CPU-DPU Time (ms): 43.952333    DPU Kernel Time (ms): 2383.085333       DPU-CPU Time (ms): 38.705667    [OK] Outputs are equal
