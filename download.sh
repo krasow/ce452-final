@@ -11,7 +11,8 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O $p
 bash $pd/miniconda3/miniconda.sh -b -u -p $pd/miniconda3
 rm -rf $pd/miniconda3/miniconda.sh
 $pd/miniconda3/bin/conda init bash
-conda env create -f environment.yml
+conda env create -f environment.yml -n upmem-fp
+conda activate upmem-fp
 
 
 wget http://sdk-releases.upmem.com/2023.2.0/ubuntu_22.04/upmem-2023.2.0-Linux-x86_64.tar.gz
